@@ -3,7 +3,7 @@ terraform {
     bucket         = "jirayu-devsecops"
     region         = "ap-southeast-1"
     key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/EKS-TF/terraform.tfstate"
-    dynamodb_table = "jirayu-dynamoDB"
+    dynamodb_table = "dynamoDB-jirayu"
     encrypt        = true
   }
   required_version = ">=0.13.0"
