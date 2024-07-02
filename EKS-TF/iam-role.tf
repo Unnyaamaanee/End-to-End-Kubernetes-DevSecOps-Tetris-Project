@@ -15,7 +15,7 @@ resource "aws_iam_role" "EKSClusterRole" {
 }
 
 resource "aws_iam_role" "NodeGroupRole" {
-  name = "EKSNodeGroupRole"
+  name = "EKSNodeGroupRole-jirayu"
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
     Statement = [
