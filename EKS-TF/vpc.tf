@@ -14,15 +14,15 @@ data "aws_internet_gateway" "igw" {
 
 data "aws_subnet" "subnet" {
   filter {
-    name   = "subnet-id"
-    values = ["subnet-0a8a0c8dca3737ca8"]
+    name   = "tag:Name"
+    values = [var.subnet-name]
   }
 }
 
 data "aws_security_group" "sg-default" {
   filter {
-    name   = "group-id"
-    values = ["sg-0ea6a494caf4f1a16"]
+    name   = "tag:Name"
+    values = [var.security-group-name]
   }
 }
 
