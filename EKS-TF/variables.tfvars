@@ -1,7 +1,7 @@
 vpc-name            = "Jenkins-vpc-jirayu"
 igw-name            = "Jenkins-igw-jirayu"
 subnet-name         = "Jenkins-subnet-jirayu"
-subnet-name2        = "Jenkins-subnet2-jirayu"
+subnet-name2        = "Jenkins-subnet2-jirayu2"
 security-group-name = "Jenkins-sg-jirayu"
 rt-name2            = "Jenkins-route-table2-jirayu"
 iam-role-eks        = "Tetris-iam-role-eks-jirayu"
